@@ -344,3 +344,34 @@ FROM top_five_genres;
 
 -- 50.
 DROP VIEW top_five_genres;
+
+-- 51.
+SELECT city FROM city;
+
+-- 52. 
+SELECT COUNT(*) FROM city;
+
+-- 53. 
+SELECT country FROM country;
+
+-- 54.
+SELECT COUNT(*) FROM country;
+
+-- 55. 
+SELECT f.title FROM film f LEFT JOIN film_actor fa ON f.film_id = fa.film_id WHERE fa.actor_id IS NULL;
+
+-- 56.
+SELECT first_name, last_name FROM staff;
+
+-- 57.
+SELECT COUNT(*) FROM staff WHERE active = 1;
+
+-- 58. 
+SELECT c.first_name, c.last_name, SUM(p.amount) FROM customer c JOIN payment p ON c.customer_id = p.customer_id GROUP BY c.customer_id;
+
+-- 59.
+SELECT COUNT(*) FROM payment;
+
+-- 60. 
+SELECT DISTINCT f.title FROM film f JOIN inventory i ON f.film_id = i.film_id JOIN rental r ON i.inventory_id = r.inventory_id;
+

@@ -54,4 +54,13 @@ Acontece que GROUCHO era o nome correto, afinal! Em uma única consulta, se o pr
 48. Em sua nova função como executivo, você gostaria de ter uma maneira fácil de visualizar os cinco principais gêneros por receita bruta. Use a solução do problema acima para criar uma visualização. Se você não tiver resolvido 7h, pode substituir outra consulta para criar uma visualização.
 49. Como você exibiria a visualização que criou em 8a?
 50. Você descobre que não precisa mais da visualização top_five_genres. Escreva uma consulta para excluí-la.
-
+51. Lista de todas as cidades disponíveis.
+52. Quantidade total de cidades cadastradas.
+53. Lista de todos os países cadastrados no banco.
+54. Quantidade total de países cadastrados.
+55. Relação de filmes que não possuem atores cadastrados.
+56. Lista dos nomes dos funcionários cadastrados no sistema.
+57. Quantidade total de funcionários ativos.
+58. Relação de clientes e o total de pagamentos realizados por cada um.
+59. Quantidade total de transações registradas no sistema.
+60. Filmes que foram alugados pelo menos uma vez.
