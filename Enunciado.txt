@@ -1,0 +1,57 @@
+1.Lista de todos os filmes.
+2.Lista do titulo de todos os filmes.
+3.Lista de filmes com duração menor do que 60 minutos.
+4.Lista dos clientes inativos.
+5.Lista dos clientes ativos e respectivos endereços.
+6.Lista dos nomes dos clientes residentes no Brasil.
+7.Relação de filmes e atores que atuaram no mesmo.
+8.Relação de filmes e atores que atuaram no mesmo ordenada por filme.
+9.Relação de filmes e atores que atuaram no mesmo ordenada por ator.
+10.Relação de filmes com participação de um ator específico.
+11.Quantidade total de filmes.
+12.Duração média dos filmes.
+13.Lista de filmes por categoria.
+14.Quantidade de filmes por categoria.
+15.Duração média dos filmes por categoria.
+16.Quantidade de filmes por categoria das categorias com menos de 57 filmes.
+17.Duração média dos filmes por categoria das categorias com menos de 57 filmes.
+18.Quantidade de filmes alugados por cliente.
+19.Quantidade de filmes alugados por cliente em ordem decrescente de quantidade de filmes alugados.
+20.Relação de nomes dos clientes que possuem um filme alugado no momento.
+21.Relação de nomes dos clientes que não possuem um filme alugado no momento.
+22.Exibir o primeiro e o último nome de todos os atores da tabela ator.
+23.Exiba o primeiro e o último nome de cada ator em uma única coluna em letras maiúsculas. Nomeie a coluna Nome do Ator.
+24.Você precisa encontrar o número de identificação, o primeiro nome e o sobrenome de um ator, do qual você sabe apenas o primeiro nome, "Joe". 
+Qual consulta você usaria para obter essas informações?
+25.Encontre todos os atores cujos sobrenomes contêm as letras GEN.
+26.Encontre todos os atores cujos sobrenomes contenham as letras LI. 
+Desta vez, ordene as linhas por sobrenome e nome, nessa ordem.
+27.Usando IN, exiba as colunas country_id e country dos seguintes países: Afeganistão, Bangladesh e China.
+28.Você quer manter uma descrição de cada ator. Você não acha que executará consultas em uma descrição, então crie uma coluna na tabela ator chamada descrição e use o tipo de dados BLOB. 
+(Certifique-se de pesquisar o tipo BLOB, pois a diferença entre ele e VARCHAR é significativa).
+29.Rapidamente você percebe que inserir descrições para cada ator é muito trabalhoso. 
+Exclua a coluna de descrição
+30.Liste os sobrenomes dos atores, bem como quantos atores têm esse sobrenome.
+31.Liste os sobrenomes dos atores e o número de atores que têm esse sobrenome, mas apenas para nomes que são compartilhados por pelo menos dois atores.
+32.O ator HARPO WILLIAMS foi acidentalmente inserido na tabela de atores como GROUCHO WILLIAMS. 
+Escreva uma consulta para corrigir o registro.
+33.Talvez tenhamos sido muito precipitados em mudar GROUCHO para HARPO. 
+Acontece que GROUCHO era o nome correto, afinal! Em uma única consulta, se o primeiro nome do ator for atualmente HARPO, mude para GROUCHO.
+34.Você não consegue localizar o esquema da tabela de endereços. Qual consulta você usaria para recriá-la?
+35.Use JOIN para exibir o primeiro e último nome, bem como o endereço, de cada membro da equipe. Use as tabelas staff e address.
+36.Use JOIN para exibir o valor total acumulado por cada membro da equipe em agosto de 2005. Use tabelas de equipe e pagamento.
+37. Liste cada filme e o número de atores que estão listados para aquele filme. Use as tabelas film_actor e film. Use inner join.
+38. Quantas cópias do filme Corcunda, Impossível existem no sistema de inventário?
+39. Usando as tabelas pagamento e cliente e o comando JOIN, liste o total pago por cada cliente. Liste os clientes em ordem alfabética pelo sobrenome.
+40. A música do Queen e do Kris Kristofferson teve um ressurgimento improvável. Como consequência não intencional, filmes que começam com as letras K e Q também dispararam em popularidade. Use subconsultas para exibir os títulos de filmes que começam com as letras K e Q cujo idioma é o inglês.
+41. Use subconsultas para exibir todos os atores que aparecem no filme Alone Trip.
+42. Você quer executar uma campanha de marketing por e-mail no Canadá, para a qual você precisará dos nomes e endereços de e-mail de todos os clientes canadenses. Use joins para recuperar essas informações.
+43. As vendas estão ficando para trás entre famílias jovens, e você deseja direcionar todos os filmes de família para uma promoção. Identifique todos os filmes categorizados como filmes de família.
+44. Exibir os filmes mais alugados em ordem decrescente.
+45. Escreva uma consulta para exibir quanto negócio, em dólares, cada loja trouxe.
+46. Escreva uma consulta para exibir para cada loja seu ID de loja, cidade e país.
+47. Liste os cinco principais gêneros em receita bruta em ordem decrescente. (Dica: talvez você precise usar as seguintes tabelas: categoria, categoria_filme, inventário, pagamento e aluguel.)
+48. Em sua nova função como executivo, você gostaria de ter uma maneira fácil de visualizar os cinco principais gêneros por receita bruta. Use a solução do problema acima para criar uma visualização. Se você não tiver resolvido 7h, pode substituir outra consulta para criar uma visualização.
+49. Como você exibiria a visualização que criou em 8a?
+50. Você descobre que não precisa mais da visualização top_five_genres. Escreva uma consulta para excluí-la.
+
